@@ -21,7 +21,7 @@ public class Hello {
   static final Timer timer = metrics.timer("my_example_timer_total");
   public static final TimeUnit TIME_UNIT = TimeUnit.SECONDS;
 
-  public static void main( String[] args ) throws Exception {
+  public static void main1( String[] args ) throws Exception {
       // Increment the counter.
       counter.inc();
       final Timer.Context context1 = timer.time();
