@@ -3,13 +3,15 @@ brew install sbt
 
 ## installing sbt new - templates
 
-### Conscript is a distribution mechanism for Scala apps using GitHub and Maven repositories as the infrastructure. it is a package manager like brew or apt-get for managing and installing scala projects/dependencies.
+### step 1 install conscript:
+
+Conscript is a distribution mechanism for Scala apps using GitHub and Maven repositories as the infrastructure. it is a package manager like brew or apt-get for managing and installing scala projects/dependencies.
 http://www.foundweekends.org/giter8/setup.html
 
 in our case its needed for sbt new templates.
 
-### giter8
- Giter8 is a command line tool to generate files and directories from templates published on Github or any other git repository. it uses sbt launcher.
+### Install giter8
+Giter8 is a command line tool to generate files and directories from templates published on Github or any other git repository. it uses sbt launcher.
 brew install giter8
 
 
