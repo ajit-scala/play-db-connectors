@@ -23,9 +23,9 @@ after above tools are installed sbt new templatename would work. This template i
 
  - or with sbt new git/template_name
    example 
-    sbt new playframework/play-scala-seed.g8unfil
-    sbt unfiltered/unfiltered.g8 --name=my-new-website
-    g8 unfiltered/unfiltered.g8 --name=my-new-website
+    - sbt new playframework/play-scala-seed.g8
+    - sbt unfiltered/unfiltered.g8 --name=my-new-website
+    - g8 unfiltered/unfiltered.g8 --name=my-new-website
     
 https://github.com/foundweekends/giter8/wiki/giter8-templates
 
