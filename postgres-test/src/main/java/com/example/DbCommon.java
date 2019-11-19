@@ -60,8 +60,8 @@ public class DbCommon {
         }
     }
 
-    private static String databaseHost = "stage-postgres-default-vpc.ctrduuiy90bn.us-east-1.rds.amazonaws.com";
-    private static String userName = "serviceuser"; //postgres
+    private static String databaseHost = "10.59.175.14"; //"stage-postgres-default-vpc.ctrduuiy90bn.us-east-1.rds.amazonaws.com";
+    private static String userName = "f00"; //postgres
     private static String password = "test1234";
 
     public static Connection getDefaultConnection() throws Exception {
