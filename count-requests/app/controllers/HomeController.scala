@@ -29,4 +29,10 @@ var counter = 0l;
     val hostName =  scala.util.Properties.envOrElse("HOSTNAME", "-" )
     Ok(views.html.index(hostName, counter))
   }
+
+  def sleep(timeout: Long) = Action { implicit request: Request[AnyContent] =>
+    val hostName =  scala.util.Properties.envOrElse("HOSTNAME", "-" )
+    Thread.sleep(timeout*1000)
+    Ok(views.html.sleep(hostName, counter, timeout))
+  }
 }
